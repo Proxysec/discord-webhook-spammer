@@ -48,7 +48,7 @@ def main():
         else:
             lag = ''
         
-        print(f"{c}SENT {w}to {R}{ifd} {w}| {c}Message {r}{mess} ")
+        print(f"{c}SENT {w}to {R}{ifd} {w}| {c}Message {R}{mess} ")
         url = f"{Y.url}"
         Message = {
                 "username": "system",
